@@ -1,0 +1,54 @@
+#loginsctn {
+	width: 400px;
+	height: 380px;
+	margin: 7% auto 2% auto;
+	padding: 1% 0;
+	background-color: white;	
+	border-radius: 2%;
+}
+
+#loginsctn * {
+	display: block;
+	margin: 1% auto;
+	border: none;
+	box-sizing: border-box;
+}
+
+#logoimg {
+	margin-top: 3%;
+}
+
+#loginlbl {
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 1%;	
+
+	text-transform: uppercase;
+	font-size: 1.4em;
+	opacity: 0.7;
+}
+
+.inputs {
+	padding: 0 3%;
+	width: 300px;
+	height: 45px;
+	background-color: #E9ECE5;
+}
+
+.inputs:focus {
+    border: solid 1px #3b3a36;
+}
+
+#submitinpt {
+	margin-top: 5%;
+	height: 50px;
+	background-color: #5CCDF2;
+}
+
+.label {
+	opacity: 0.7;
+}
+
+#forgotpasswordlbl {
+	margin-bottom: 5px;
+}

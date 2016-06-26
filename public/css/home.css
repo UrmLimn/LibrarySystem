@@ -1,0 +1,214 @@
+#header {
+	background-color: #FFFFFF;
+	position: fixed;
+	
+	height: 70px;
+	width: 100%;
+
+	z-index: 10;
+}
+
+#header * {
+	display: inline;
+	box-sizing: border-box;
+	border: none;
+}
+
+a {
+	position: relative;
+}
+
+/*Logo image*/
+#logoimg {
+	position: absolute;
+	margin: 10px 10px 10px 50px;
+}
+
+/*Search form*/
+#searchfrm {
+	position: relative;
+	margin-left: 35%;
+}
+
+/*Search input*/
+#searchinpt {
+	position: absolute;
+	height: 40px;
+	width: 250px;
+	background-color: #5CCDF2;
+	margin: 18px 0px 10px 35%;
+	padding: 0 10px;
+}
+
+/*Search button*/
+#searchbtn {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	background-color: #E9ECE5;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	background-image:url('../images/search_icon.png');
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: right;
+	margin: 18px 10px 10px 250px;
+}
+
+#searchinpt::-webkit-input-placeholder {
+    color: #313131;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+#searchinpt::-moz-placeholder {
+    color: #313131;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+#searchinpt::-ms-input-placeholder {
+    color: #313131;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    margin: 25px 0 0 85%;
+    padding: 0 30px 0 10px;
+    background-image:url('../images/dropdown_icon.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: right;
+	z-index: 11;
+}
+
+/*Profile section*/
+#profilesctn {
+	position: fixed;
+	background-color: #5CCDF2;
+	height: 100%;
+	width: 25%;
+	margin-top: 70px;
+	z-index: 5;
+	text-align: center;
+}
+
+/*Profile picture*/
+#profilepic {
+	margin: 10% auto;
+}
+
+/*Profile name*/
+#profilename {
+	margin: 0 10% 5% 10%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*Profile description*/
+#profiledscrptn {
+	margin: 0 10%;
+}
+
+/*Main section*/
+#mainsctn {
+	padding: 125px 0 0 30%;
+}
+
+table {
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+/*Columns of the table*/
+.tableclmn {
+	height: 50px;
+	width: 10%;
+	background-color: #5CCDF2;
+}
+
+/*The text of each column*/
+.columnname {
+	font-weight: bold;
+	text-align: center;
+}
+
+/*The data that is on the table*/
+.tabledata {
+	background-color: #FFFFFF;
+
+}
+
+/*The text that is on each column*/
+.tabledata {
+	text-align: center;
+	height: 40px;
+}
+
+/*The return submit input shown in the table*/
+.returnbtn {
+	border: none;
+	background-color: #FFFFFF;
+}
+
+.returnbtn:hover {
+	cursor: pointer;
+}
+
+hr {
+	margin: 50px 0;
+	width: 90%;
+	border-color: #E9ECE5;
+}
+
+#advancedsrch {
+	margin-top: 20px;
+}
+
+/*The select forms*/
+.selectform {
+	border: none;
+	background-color: #E9ECE5;
+	width: 70px;
+	height: 35px;
+}
+
+/*The inputs in the advanced search section*/
+.advancedsearchinpt {
+	border: none;
+	width: 350px;
+	height: 40px;
+	margin: 3px 0 3px 10px;
+	padding: 0 10px;
+	background-color: #FFFFFF;
+}
+
+#searchsubmitbtn {
+	border: none;
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 350px;
+	background-color: #5CCDF2;
+	text-transform: uppercase;
+}
+
+.advancedsearchinpt::-webkit-input-placeholder {
+    color: #313131;
+    opacity: 0.7;
+}
+
+.advancedsearchinpt::-moz-placeholder {
+    color: #313131;
+    opacity: 0.7;
+}
+
+.advancedsearchinpt::-ms-input-placeholder {
+    color: #313131;
+    opacity: 0.7;
+}

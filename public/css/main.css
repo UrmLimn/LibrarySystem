@@ -1,0 +1,81 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	/*border: solid 1px black;*/
+}
+
+body {
+	/*background: url("../images/index_background.jpg");
+	background-size: cover;*/
+	background-color: #E9ECE5;
+}
+
+/*Remove the decoration from the links*/
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: blue;
+}
+
+.centertxt {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.message {
+	text-align: center;
+	font-size: 0.95em;
+	color: red;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.invisible {
+	visibility: hidden;
+}
